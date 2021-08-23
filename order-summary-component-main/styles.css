@@ -1,5 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    /* Primary */
+    --paleBlue: rgb(224, 232, 255);
+    --brightBlue: rgb(56, 41, 224);
+    /* Neutral */
+    --veryPaleBlue: rgb(245, 247, 255);
+    --desaturatedBlue: rgb(114, 128, 167);
+    --darkBlue: rgb(31, 47, 86);
+}
+
+body {
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: var(--paleBlue);
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+
+.container {
+    height: 80vh;
+}
+
+.card {
+    margin: 80px auto;
+    background: white;
+    background-image: url(./images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 230px;
+
 }
